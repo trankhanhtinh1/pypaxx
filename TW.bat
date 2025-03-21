@@ -5,4 +5,3 @@ adb push libanortTW.so /data/data/com.rekoo.pubgm/lib/libanort.so
 adb push libCrashSight.so /data/data/com.rekoo.pubgm/lib/libCrashSight.so
 adb.exe -s emulator-5554 shell rm -rf /data/data/com.rekoo.pubgm/databases
 adb.exe -s emulator-5554 shell am start -n com.rekoo.pubgm/com.epicgames.ue4.SplashActivity
-@pause
