@@ -1,6 +1,5 @@
 adb kill-server
 adb start-server
-adb shell touch /data/data/com.vng.tinput
 adb push libinvinsible.so /data/data/com.vng.pubgmobile/lib/libinvinsible.so
 adb push libanortVNG.so /data/data/com.vng.pubgmobile/lib/libanort.so
 adb push libCrashSight.so /data/data/com.vng.pubgmobile/lib/libCrashSight.so
