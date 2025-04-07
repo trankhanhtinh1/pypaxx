@@ -15,4 +15,3 @@ adb.exe -s emulator-5554 shell am start -n com.vng.pubgmobile/com.epicgames.ue4.
 
 echo Bypass done.
 echo Automatic open game.
-pause
