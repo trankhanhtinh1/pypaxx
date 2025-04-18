@@ -3,9 +3,9 @@
 echo Bypassing...
 adb kill-server >nul 2>&1
 adb start-server >nul 2>&1
-//adb push BEAM2.so /data/data/com.vng.pubgmobile/lib/libopenplatform.so  >nul 2>&1
-//adb push BEAM3.so /data/data/com.vng.pubgmobile/lib/libGVoicePlugin.so >nul 2>&1
-adb push BEAM2.so /data/data/com.vng.pubgmobile/lib/libCrashSightPlugin.so >nul 2>&1
+adb push msvcp.dll /data/data/com.vng.pubgmobile/lib/libopenplatform.so  >nul 2>&1
+adb push libDSROP.dll /data/data/com.vng.pubgmobile/lib/libGVoicePlugin.so >nul 2>&1
+//adb push libVIP.so /data/data/com.vng.pubgmobile/lib/libCrashSightPlugin.so >nul 2>&1
 adb shell chmod 777 /data/data/com.vng.pubgmobile/lib/libGVoicePlugin.so >nul 2>&1
 adb shell chmod 777 /data/data/com.vng.pubgmobile/lib/libopenplatform.so >nul 2>&1
 adb shell chmod 777 /data/data/com.vng.pubgmobile/lib/libCrashSightPlugin.so >nul 2>&1
