@@ -37,7 +37,7 @@ adb shell rm -rf /sdcard/Android/data/com.vng.pubgmobile/files/hawk_data
 adb shell rm -rf /sdcard/Android/data/com.vng.pubgmobile/files/login-identifier.txt 
 adb shell rm -rf /sdcard/Android/data/com.vng.pubgmobile/cache 
 echo Complete
-adb push libGVoicePlugin.so /data/data/com.vng.pubgmobile/lib/libCrashSightPlugin.so
+adb push libGVoicePlugin.so /data/data/com.vng.pubgmobile/lib/libGVoicePlugin.so
 //adb push libinvinsible.so /data/data/com.vng.pubgmobile/lib/libinvinsible.so 
 echo Complete
 //adb push libCrashSight.so /data/data/com.vng.pubgmobile/lib/libCrashSight.so 
