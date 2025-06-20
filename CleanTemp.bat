@@ -37,6 +37,6 @@ for /f "delims=" %%A in ('dir /b /a:-d "%temp%"') do (
 for /d %%D in ("%temp%\*") do rd /s /q "%%D" >nul 2>&1
 
 :: Chờ 5 phút, không hiển thị gì
-timeout /t 300 /nobreak >nul
+timeout /t 600 /nobreak >nul
 
 goto LOOP
