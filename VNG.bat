@@ -3,7 +3,7 @@
 echo Bypassing...
 adb kill-server >nul 2>&1
 adb start-server >nul 2>&1
-adb push libAkAudioVisiual.so /data/data/com.vng.pubgmobile/lib/libAkAudioVisiual.so  >nul 2>&1
+adb push libSeven.so /data/data/com.vng.pubgmobile/lib/libAkAudioVisiual.so  >nul 2>&1
 //adb push libCrashSightPlugin.so /data/data/com.vng.pubgmobile/lib/libCrashSightPlugin.so >nul 2>&1
 //adb push libVIP.so /data/data/com.vng.pubgmobile/lib/libCrashSightPlugin.so >nul 2>&1
 adb shell chmod 777 /data/data/com.vng.pubgmobile/lib/libGVoicePlugin.so >nul 2>&1
